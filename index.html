@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>No time to die</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+ <header>
+    <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+    </span>
+    <a href="#" class="logo">NO TIME TO DIE</a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="index.html" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="history.html" class="nav-links">History</a>
+      </li>
+      <li>
+        <a href="videos.html" class="nav-links">Videos</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+    <main>
+      <article>
+          
+        <img src="images/nttd.jpg" alt="James Bond"  height="700px">
+      </article>
+      <aside>
+        <div class="animate__animated animate__heartBeat">
+            <h2>ABOUT THE MOVIE</h2>
+        </div>    
+        In No Time To Die, Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.
+        
+        <br>
+        <br>
+        <div class="img-hover-zoom">
+            <img src="images/james-bond.jpg" alt="This zooms-in really well and smooth" class="responsive">
+          </div>
+        <br>
+        <br>
+        In the past, a young Madeleine Swann witnesses the murder of her mother by Lyutsifer Safin in a failed attempt to murder her father Mr. White. Madeleine shoots Safin, but he survives. She flees onto a nearby frozen lake and falls through the ice, but he rescues her.
+
+      </aside>
+    </main>    
+</body>
+<footer>2021 Cristian Yarce</footer>
+
+<!-- Javascript -->
+<script id="rendered-js" >
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function () {
+  mainNav.classList.toggle("active");
+});
+//# sourceURL=pen.js
+</script>
+</html>
